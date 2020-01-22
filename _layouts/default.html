@@ -22,6 +22,14 @@
   <body>
   
     <header class="page-header" role="banner">
+      <nav>
+        <ul>
+            <li><a href="{{site.baseurl}}/">Home</a></li>
+            <li><a href="{{site.baseurl}}/research">Research</a></li>
+            <li><a href="{{site.baseurl}}/resources">Resources</a></li>
+            <li><a href="{{site.baseurl}}/publications">Publications</a></li>
+        </ul>
+      </nav>
       <h1 class="project-name">Claudia Tugulan</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
