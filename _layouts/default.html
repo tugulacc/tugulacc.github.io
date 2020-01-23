@@ -26,12 +26,6 @@
       <h1 class="project-name">Claudia Tugulan</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       
-      <nav>
-        <a href="{{site.baseurl}}/" class="project-name">Home</a>
-        <a href="{{site.baseurl}}/research" class="project-name">Research</a>
-        <a href="{{site.baseurl}}/resources" class="project-name">Resources</a>
-        <a href="{{site.baseurl}}/publications" class="project-name">Publications</a>
-      </nav>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
